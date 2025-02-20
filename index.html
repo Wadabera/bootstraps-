@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Hidda Latiinsa Oromo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+
+    <style>
+        body {
+            background-color: #f8f9fa;
+        }
+        .hero-section {
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            text-align: center;
+        }
+        .hero-text {
+            color: #2c3e50;
+        }
+        .genealogy-section {
+            background-color: #ffffff;
+            padding: 50px 0;
+        }
+        .genealogy-card {
+            border-left: 5px solid #007bff;
+            padding: 20px;
+            background: #f1f1f1;
+            border-radius: 10px;
+            margin-bottom: 20px;
+        }
+        .img-fluid {
+            width: 100%;
+            height: auto;
+            object-fit: cover;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand fw-bold" href="#">Hidda Latiinsa Oromo</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item btn btn-outline-primary m-3"><a class="nav-link fw-bold" href="#">Home</a></li>
+                    <li class="nav-item btn btn-outline-secondary m-3"><a class="nav-link fw-bold" href="geneology.html">Genealogy</a></li>
+                    <li class="nav-item btn btn-outline-info m-3"><a class="nav-link fw-bold" href="#">Culture</a></li>
+                    <li class="nav-item btn btn-outline-success m-3"><a class="nav-link fw-bold" href="#">Contact</a></li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-light" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+    
+    <!-- Hero Section -->
+    <div class="container hero-section justify-content-center">
+      <div class="row align-items-center">
+          <div class="col-12 col-md-6 text-center text-md-start p-4">
+              <h1 class="display-4 hero-text">
+                  <i class="bi bi-diagram-3-fill"></i> Hidda Latiinsa Oromoo
+              </h1>
+              <p class="lead hero-text">Seenaa fi hidda latiinsa Oromoo, kan Boranaa fi Bareentoo irraa jalqabu, baradhaa.</p>
+              <button class="btn btn-primary btn-lg">
+                  <i class="bi bi-book"></i> Baruu
+              </button>
+          </div>
+          <div class="col-12 col-md-6 text-center">
+              <img src="download.jfif" alt="Oromo Genealogy" class="img-fluid d-none d-md-block">
+          </div>
+      </div>
+  </div>
+  
+    
+    <!-- Genealogy Section -->
+    <div class="container genealogy-section">
+      <h2 class="text-center mb-4">
+          <i class="bi bi-diagram-2"></i> Hidda Latiinsa Oromoo
+      </h2>
+      <div class="row">
+          <div class="col-md-6">
+              <div class="card mb-4">
+                  <div class="card-header">
+                      <i class="bi bi-people-fill"></i> Boranaa
+                  </div>
+                  <ul class="list-group list-group-flush">
+                      <li class="list-group-item">
+                          <i class="bi bi-info-circle"></i> Boranni gosa Oromoo keessaa isa duraa fi gurguddaa dha.
+                      </li>
+                      <li class="list-group-item">
+                          <i class="bi bi-diagram-3"></i> Gosa gurguddaa lama qaba: <b>Mochii</b> fi <b>Humbannaa</b>.
+                      </li>
+                      <li class="list-group-item">
+                          <i class="bi bi-shield-lock"></i> Sirna isaanii tikfachuun jiraatan.
+                      </li>
+                  </ul>
+              </div>
+          </div>
+          <div class="col-md-6">
+              <div class="card mb-4">
+                  <div class="card-header">
+                      <i class="bi bi-people-fill"></i> Bareentoo
+                  </div>
+                  <ul class="list-group list-group-flush">
+                      <li class="list-group-item">
+                          <i class="bi bi-info-circle"></i> Bareentoon gosa Oromoo keessaa tokko yoo ta'u, gara-gara tamsa’ee jira.
+                      </li>
+                      <li class="list-group-item">
+                          <i class="bi bi-diagram-3"></i> Gosoota Bareentoo keessaa: <b>Tuulamaa</b>, <b>Wallo</b>, <b>Harargee</b>, <b>Arsii</b>, fi <b>Kaabaa</b>.
+                      </li>
+                      <li class="list-group-item">
+                          <i class="bi bi-shield-lock"></i> Sirna Gadaa keessatti qooda guddaa qaba.
+                      </li>
+                  </ul>
+              </div>
+          </div>
+      </div>
+  </div>
+  
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
